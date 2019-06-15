@@ -28,28 +28,28 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain the differences between `client-side routing` and `server-side routing`.
+- [X] Explain the differences between `client-side routing` and `server-side routing`.
 
-### Client side routing features:
-* The client manages data within it's own memory
-* Data requests are handled internally since the data lives within the client
-* API requests are used to request data not present in memory
-* Full page refreshes are not needed when navigating between Routes.
+- ### Client side routing features:
+- * The client manages data within it's own memory
+- * Data requests are handled internally since the data lives within the client
+- * API requests are used to request data not present in memory
+- * Full page refreshes are not needed when navigating between Routes.
 
-### Server side routing features:
-* Server manages the data for the app
-* Browser sends requests to the server for data
-* Server returns an HTML file or or document 
-* Browser then refreshes and renders the entire page
+- ### Server side routing features:
+- * Server manages the data for the app
+- * Browser sends requests to the server for data
+- * Server returns an HTML file or or document 
+- * Browser then refreshes and renders the entire page
 
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+- [X] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
 
 * Create - POST
 * Read - GET
 * Update - PUT
 * Delete - DELETE
 
-- [ ] Mention three tools we can use to make AJAX requests.
+- [X] Mention three tools we can use to make AJAX requests.
 
 * Axios, jQuery AJAX, and Fetch API
 
@@ -85,8 +85,8 @@ The MVP of this project will be broken up between 2 stages. Follow each step and
 
 Construct your Components to build a Single Page Application. Keep your components separate and design them as if they are pages before adding in your Router.
 
-- [ ] Construct an AXIOS request to retrieve an array all the Smurfs in the Smurf DB simply write a `GET` to the endpoint `/smurfs`.
-- [ ] Display those smurfs in a list on the screen.
+- [X] Construct an AXIOS request to retrieve an array all the Smurfs in the Smurf DB simply write a `GET` to the endpoint `/smurfs`.
+- [X] Display those smurfs in a list on the screen.
 - [ ] Construct an AXIOS request to `POST` to add a Smurf to the Smurf DB you'll need all three fields.
 - [ ] Create a form that will allow users to add Smurfs to the Smurf DB.
 - [ ] If a Smurf is created correctly, you should see a response that is an array of Smurfs with unique id's assigned to each Smurf.
